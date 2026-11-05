@@ -1,0 +1,6 @@
+# Windows 外壳元数据 —— 账本不收机器的装饰
+desktop.ini
+Thumbs.db
+# Python 运行残渣
+__pycache__/
+*.pyc
