@@ -1,3 +1,19 @@
-  File "D:\tiyuan_e1\sv_full_test.py", line 3
-    from itertools import product
-IndentationError: unexpected indent
+[1] DOMAIN_SPACE = 180  OP_SPACE = 360
+[2] SVID = 360 / 360  UNIQUE = 360  K_PASS = True
+[3] 数据卡绑定 = 360 / 360 PASS
+[4] 标准/模型/指标挂接 = 360 / 360 PASS
+[5] CLU_day = 18  CLU_emer = 18  入簇 = 126  独立 = 234  重叠 = 18
+[6] 场景投影:
+  S04 高温触发 = 40
+  S05 暴雨触发 = 80
+  S06 缺勤折减 = 72
+  S10 T3 事件态 = 90
+  S11/S12 全量兜底 = 360 / 360  SVID漂移=0
+[7] PROJ_T=T3 = 90  SLICE_Y=Y5 = 72
+[8] 样例行:
+  H1-01-Y5-T1-K9 S01: DEMAND=42 CAP=48 GAP=0 RESP=18min WARN=NONE
+  H1-01-Y5-T1-K9 S05: DEMAND=55 CAP=48 GAP=7 RESP=31min WARN=CAP_SHORT
+  H1-01-Y5-T1-K9 S11: DEMAND=42 CAP=48 GAP=0 RESP=20min WARN=DATA_FALLBACK
+  H1-01-Y5-T3-K5 S10: DEMAND=61 CAP=48 GAP=13 RESP=25min WARN=T3_SWITCH+PRIORITY
+  H1-01-Y4-T1-K0 S06: DEMAND=38 CAP=32 GAP=6 RESP=27min WARN=STAFF_SHORT
+[9] 结构可计算性 PASS / 真实效果 NOT_TESTED
