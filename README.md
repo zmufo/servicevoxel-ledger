@@ -1,3 +1,7 @@
+# servicevoxel-ledger (ServiceVoxel Canonical Ledger)
+
+> Core ledger reference implementation for ServiceVoxel governance protocol. Truth resides in this canonical repo; mirrors only hold role stamps, never fact copies.
+
 # servicevoxel-ledger（服务体元真账）
 
 **角色：canonical** — 真相以本仓为准；其余仓库只挂角色章，不存副本。
