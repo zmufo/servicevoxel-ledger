@@ -1,12 +1,20 @@
 > [!WARNING]
-> **本仓为 v1.0 历史账本，已退役，不再代表 ServiceVoxel 当前主张。**
+> **本仓为 v1.0 历史账本，已退役，HISTORICAL_LEDGER_ONLY。**
 > v1.0 的“正向业务事实校验 / 真相基准”使命已于 2026-11 被证伪：
-> 其锚点（哈希、时间戳、内部切片）均由被校验方自有系统生成，构成闭环自证，
+> 其锚点（哈希、时间戳、内部事实切片）均由被校验方自有系统生成，构成闭环自证，
 > 无法满足「事实来源独立于被校验方」这一硬标准。
 >
 > 当前有效框架：**体元（ServiceVoxel）v2.0 —— 多源独立物理锚点负向筛查器**
 > （只证明“服务未发生”，不证明“服务已发生”；详见 DEPRECATION.md）
 >
+> 本仓保留全部 Commit / 锚链 / FAILED 留痕，仅作证伪轨迹与工程史档案，
+> **请勿将本仓任何“真相基准 / canonical / 已验证”表述用于对外主张。**
+
+# servicevoxel-ledger (ServiceVoxel Canonical Ledger)
+
+Core ledger reference implementation for ServiceVoxel governance protocol. Truth resides in this canonical repo; mirrors only hold role stamps, never fact copies.
+
+<!-- 以下内容为 v1.0 原始正文，原样保留，不删不改，仅供历史参考 -->>
 > 本仓保留全部 Commit / 锚链 / FAILED 留痕，仅作证伪轨迹与工程史档案，
 > **请勿将本仓任何“真相基准 / canonical / 已验证”表述用于对外主张。**
 
